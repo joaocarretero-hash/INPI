@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Base de Dados do INPI</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte opcional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rawline:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra do Governo (Topo) -->
+    <header class="gov-bar">
+        <div class="gov-container">
+            <div class="gov-brand">
+                <img src="midia/brasil-flag.svg" alt="Bandeira do Brasil" class="gov-flag">
+                <span>BRASIL</span>
+            </div>
+            <nav class="gov-nav">
+                <a href="#">ACESSO À INFORMAÇÃO</a>
+                <span class="divider">|</span>
+                <a href="#">PARTICIPE</a>
+                <span class="divider">|</span>
+                <a href="#">SERVIÇOS</a>
+                <span class="divider">|</span>
+                <a href="#">LEGISLAÇÃO</a>
+                <span class="divider">|</span>
+                <a href="#">CANAIS</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cabeçalho Principal (INPI) -->
+    <div class="main-header-container">
+        <header class="main-header">
+            <div class="inpi-brand">
+                <div class="logo-text">INPI</div>
+                <div class="logo-description">
+                    INSTITUTO NACIONAL DA<br>PROPRIEDADE INDUSTRIAL
+                </div>
+            </div>
+            <nav class="user-nav">
+                <a href="#">AJUDA?</a>
+                <span class="divider">|</span>
+                <a href="#">LOGIN</a>
+                <span class="divider">|</span>
+                <a href="#">CADASTRE-SE AQUI</a>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <h1 class="page-title">CONSULTA BASE DE DADOS DO INPI</h1>
+
+        <!-- Grid de Categorias -->
+        <div class="categories-grid">
+            
+            <!-- Marca -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_num_processo.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-marca">
+                <div class="icon-wrapper">
+                    <img src="midia/marca.svg" alt="Ícone Marca">
+                </div>
+                <span>MARCA</span>
+            </a>
+
+            <!-- Patente -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/patentes/PatenteSearchBasico.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-patente">
+                <div class="icon-wrapper">
+                    <img src="midia/patente.svg" alt="Ícone Patente">
+                </div>
+                <span>PATENTE</span>
+            </a>
+
+            <!-- Desenho Industrial -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/desenhos/DesenhoSearchBasico.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-desenho">
+                <div class="icon-wrapper">
+                    <img src="midia/desenho-industrial.svg" alt="Ícone Desenho Industrial">
+                </div>
+                <span>DESENHO INDUSTRIAL</span>
+            </a>
+
+            <!-- Informação Tecnológica de Patentes -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/informacaotecnologica/InformacaoBancoError.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-info-tec">
+                <div class="icon-wrapper">
+                    <img src="midia/info-tecnologica.svg" alt="Ícone Informação Tecnológica">
+                </div>
+                <span>INFORMAÇÃO TECNOLÓGICA DE PATENTES</span>
+            </a>
+
+            <!-- Indicação Geográfica -->
+            <a href="https://www.gov.br/inpi/pt-br/servicos/indicacoes-geograficas/pedidos-de-indicacao-geografica-no-brasil" target="_blank" rel="noopener noreferrer" class="category-card cat-ig">
+                <div class="icon-wrapper">
+                    <img src="midia/indicacao-geografica.svg" alt="Ícone Indicação Geográfica">
+                </div>
+                <span>INDICAÇÃO GEOGRÁFICA</span>
+            </a>
+
+            <!-- Programa de Computador -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/programas/ProgramaSearchBasico.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-programa">
+                <div class="icon-wrapper">
+                    <img src="midia/programa-computador.svg" alt="Ícone Programa de Computador">
+                </div>
+                <span>PROGRAMA DE COMPUTADOR</span>
+            </a>
+
+            <!-- Topografia de Circuito Integrado -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/circuitos/CircuitosBancoError.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-circuito">
+                <div class="icon-wrapper">
+                    <img src="midia/circuito-integrado.svg" alt="Ícone Topografia de Circuito Integrado">
+                </div>
+                <span>TOPOGRAFIA DE CIRCUITO INTEGRADO</span>
+            </a>
+
+            <!-- Transferência de Tecnologia -->
+            <a href="https://busca.inpi.gov.br/pePI/jsp/contratos/ContratoSearchBasico.jsp" target="_blank" rel="noopener noreferrer" class="category-card cat-transf">
+                <div class="icon-wrapper">
+                    <img src="midia/transferencia-tecnologia.svg" alt="Ícone Transferência de Tecnologia">
+                </div>
+                <span>TRANSFERÊNCIA DE TECNOLOGIA</span>
+            </a>
+
+        </div>
+
+        <!-- Seção de Notas Informativas -->
+        <section class="notes-section">
+            <h2 class="notes-title">NOTA:</h2>
+            <div class="notes-content">
+                <p>
+                    PARA EFEITOS LEGAIS A REVISTA ELETRÔNICA DA PROPRIEDADE INDUSTRIAL (RPI) É O ÚNICO CANAL DESTINADO A PUBLICAR OS ATOS, DESPACHOS E DECISÕES RELACIONADOS ÀS ATIVIDADES DA AUTARQUIA.
+                </p>
+                <p>
+                    O ACERVO CONTIDO NA BASE DE DADOS ESTÁ RESTRITO A DOCUMENTOS PUBLICADOS A PARTIR DO ANO 2000, E A PARTIR DE OUTUBRO DE 2009 PARA CONTRATOS DE TECNOLOGIA, CUJOS DADOS FORAM PUBLICADOS OFICIALMENTE NA REVISTA DA PROPRIEDADE INDUSTRIAL.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <address class="footer-address">
+                RUA MAYRINK VEIGA, 9 - CENTRO - RJ - CEP: 20090-910
+            </address>
+            <div class="footer-contact">
+                <a href="https://www.gov.br/inpi/pt-br/plataforma-integrada-de-atendimento" target="_blank" rel="noopener noreferrer" class="fale-conosco-btn">
+                    <img src="midia/fale-conosco.svg" alt="Ícone Fale Conosco">
+                    <span>Fale Conosco</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
